@@ -1,0 +1,65 @@
+#root {
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  text-align: center;
+}
+.home-Container{
+  background-image: url(Components/abstract-luxury-black-gradient-with-border-free-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container{
+  background-image: url(Components/360_F_691065307_IG2Pddis092Dy1xA8mMFcMcg50P9C9L6.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.git-logo{
+  color: rgb(0, 217, 255);
+  margin-bottom: 20px;
+  font-size:xx-large;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-field{
+  width: 300px;
+}
+
+.pass-field{
+  width: 300px;
+}
+
+.git-logo{
+  display: block;
+  width: 100px;
+  height: auto;
+  background-color: transparent;
+  border: none;
+}
